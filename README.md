@@ -28,6 +28,14 @@
 Ключевые ценности, ущербы, неприемлемые события
 
 
+Value                  | Negative Event                                                                 | Damage Level | Comment                                                                 |
+|------------------------|-------------------------------------------------------------------------------|--------------|-------------------------------------------------------------------------|
+| **Passenger Safety**   | False biometric match (unauthorized access or denial of legitimate passenger) | High         | Risk of conflicts, delays, and loss of trust in the system.            |
+| **Data Privacy**       | Biometric data leak (facial/payment info)                                     | Critical     | Legal consequences, reputation loss, GDPR/FZ-152 fines.                |
+| **System Reliability** | Payment system failure (scanner/transaction error)                            | Medium       | Service disruption → free rides or halted operations.                  |
+| **Boarding Speed**     | Delays due to slow/erratic facial recognition                                | Medium       | Passenger queues, dissatisfaction.                                     |
+| **Autonomy**           | Navigation system failure (route/obstacle misdetection)                      | High         | Accident risk, need for manual override (if available).                |
+
 **Контекст**
 
 фото
