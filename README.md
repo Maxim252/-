@@ -1,2 +1,3 @@
-![image](https://github.com/user-attachments/assets/a9ed372a-a1fa-486d-8511-f23937d3a2d5)# -
+# -
 Продукт - автономный автобус с бесконтактной оплатой проезда на основе биометрии Автобус сканирует лицо пассажира на входе и проводит оплату после идентификации.
+![image](https://github.com/user-attachments/assets/a9ed372a-a1fa-486d-8511-f23937d3a2d5)
