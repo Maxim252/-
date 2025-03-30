@@ -98,7 +98,7 @@
 
 **Негативные сценарии**
 
-фото
+![image](https://github.com/user-attachments/assets/7c14de86-e0ec-43c1-9e9b-c0bc72946afc)
 
 **Политика архитектуры**
 
