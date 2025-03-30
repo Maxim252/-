@@ -101,3 +101,6 @@
 фото
 
 **Политика архитектуры**
+
+![mermaid-diagram-2025-03-30-225150](https://github.com/user-attachments/assets/51129fe5-1657-4c84-87f0-d0cacb164c20)
+
