@@ -50,7 +50,8 @@
 
 **Высокоуровневая архитектура**
 
-![Диаграмма без названия drawio](https://github.com/user-attachments/assets/3fa2e069-229b-4096-b6d6-d8cfcc7a91e6)
+![Диаграмма без названия drawio (1)](https://github.com/user-attachments/assets/b67529b1-0142-4918-8c95-e4a54d7824a9)
+
 
 **Расширенные диаграммы функциональных сценариев** + фото
 
