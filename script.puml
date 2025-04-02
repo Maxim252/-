@@ -1,0 +1,38 @@
+@startuml
+actor Пассажир
+participant "Биометрическая система" as Bio
+participant "Платежный шлюз" as Payments
+participant "Банковская система" as Bank
+participant "Система управления" as Control
+participant "Двери" as Doors
+participant "Сетевой модуль" as Network
+
+== Базовый сценарий: Успешная оплата и вход ==
+
+Пассажир -> Bio: Сканирует лицо
+activate Bio
+Bio -> Bio: Распознавание (FaceNet + Liveness Check)
+Bio -> Payments: ID пользователя + биометрический хэш
+activate Payments
+
+Payments -> Bank: Проверка баланса (ID + сумма)
+activate Bank
+Bank --> Payments: Подтверждение (баланс OK)
+deactivate Bank
+
+Payments -> Control: Сигнал "Открыть двери"
+activate Control
+Control -> Doors: Активация электропривода
+activate Doors
+Doors --> Пассажир: Зеленый индикатор + звук
+deactivate Doors
+deactivate Control
+
+Payments -> Network: Логирование транзакции
+activate Network
+Network --> Bank: Синхронизация логов
+deactivate Network
+
+deactivate Payments
+deactivate Bio
+@enduml
