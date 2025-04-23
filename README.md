@@ -45,8 +45,7 @@
 
 **Основные функциональные сценарии**
 
-![image](https://github.com/user-attachments/assets/d48b4842-3e52-4429-8137-b96aa53c401d)
-
+![image](https://github.com/user-attachments/assets/8c413de1-7dc2-4e6a-91a6-3ab52eaf8e54)
 
 **Высокоуровневая архитектура**
 
@@ -68,7 +67,7 @@
 **Расширенные диаграммы функциональных сценариев**
 Иллюстрация взаимодействия подсистем, указанных в высокоуровневой архитектуре
 
-![image](https://github.com/user-attachments/assets/8c413de1-7dc2-4e6a-91a6-3ab52eaf8e54)
+![image](https://github.com/user-attachments/assets/d48b4842-3e52-4429-8137-b96aa53c401d)
 
 **Цели и предположения безопасности**
 
