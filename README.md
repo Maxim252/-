@@ -98,7 +98,8 @@
 
 **Политика архитектуры**
 
-![mermaid-diagram-2025-03-30-225150](https://github.com/user-attachments/assets/51129fe5-1657-4c84-87f0-d0cacb164c20)
+![mermaid-diagram-2025-06-04-101708](https://github.com/user-attachments/assets/db3aa33b-1556-4dce-9981-53d1cf42c7d3)
+
 
 # Таблица доменов безопасности системы
 
