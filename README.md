@@ -47,7 +47,8 @@
 
 **Высокоуровневая архитектура**
 
-![image](https://github.com/user-attachments/assets/5ec76da5-0311-46b0-8c01-d9e7cd111656)
+![image](https://github.com/user-attachments/assets/debced5a-1c50-4944-899c-1cb42be6ee65)
+
 
 ## Подсистемы
 
