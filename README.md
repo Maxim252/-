@@ -100,7 +100,8 @@
 
 **Политика архитектуры**
 
-![image](https://github.com/user-attachments/assets/9dc1a923-daea-4857-9c80-1d6a904b7bac)
+![image](https://github.com/user-attachments/assets/429804c3-a33a-4879-9128-2b2f068da324)
+
 
 
 
