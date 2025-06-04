@@ -93,9 +93,10 @@
 
 
 **Негативные сценарии**
-Негативный сценарий 1: Сбой камеры
+Негативный 
 
-![image](https://github.com/user-attachments/assets/7c14de86-e0ec-43c1-9e9b-c0bc72946afc)
+![image](https://github.com/user-attachments/assets/edb501f9-9ebd-47ff-8f5f-ee6af719c2ea)
+
 
 **Политика архитектуры**
 
