@@ -65,8 +65,7 @@
 **Расширенные диаграммы функциональных сценариев**
 Иллюстрация взаимодействия подсистем, указанных в высокоуровневой архитектуре
 
-![image](https://github.com/user-attachments/assets/221aa645-e232-40b9-b2a8-abc48686ff18)
-
+![ZPNVIjn06CNlynI3jyKN4BP8wqrlIbyXw5AMwgviqfRU6MMheErMA1Gir4fVOBfkD4OpliAPD-gP3uVCR5RfpPhCP7xd-tE-SJtBqt7-VcSxIJVpqLZX7DeMje365Igxb-noUx0vs4s7kS8Pb-zGsZteUECK5OnixNEpijDeUuNKMtBtKPBQs6FSA7k4M_iLroigpTIRzDDEVvXdYr2D (1)](https://github.com/user-attachments/assets/99439280-6eff-4c78-8b1b-f942f8ac0c59)
 
 
 **Цели и предположения безопасности**
