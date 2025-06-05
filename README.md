@@ -47,7 +47,8 @@
 
 **Высокоуровневая архитектура**
 
-![image](https://github.com/user-attachments/assets/debced5a-1c50-4944-899c-1cb42be6ee65)
+![image](https://github.com/user-attachments/assets/ad1f7ef4-28eb-485a-91b3-189d26f54a77)
+
 
 | Подсистема               | Назначение                                                                 | Компоненты/Функции                                                                 |
 |--------------------------|----------------------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -100,7 +101,8 @@
 
 **Политика архитектуры**
 
-![image](https://github.com/user-attachments/assets/429804c3-a33a-4879-9128-2b2f068da324)
+![image](https://github.com/user-attachments/assets/5fac67f0-0ce2-4572-8acc-fd1a9fa660c0)
+
 
 
 
