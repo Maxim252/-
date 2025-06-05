@@ -94,7 +94,6 @@
 
 
 **Негативные сценарии**
-Негативный 
 
 ![image](https://github.com/user-attachments/assets/edb501f9-9ebd-47ff-8f5f-ee6af719c2ea)
 
