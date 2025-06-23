@@ -133,44 +133,50 @@
 
 
 Реализация на питоне
-" def check_operation(event_id, details): authorized = False print(f"[info] checking policies for event {event_id}, " f"{details['source']} -> {details['deliver_to']}: {details['operation']}")
 
-src = details['source']
-dst = details['deliver_to']
-operation = details['operation']
+def check_operation(event_id, details):
+    authorized = False
+    print(f"[info] checking policies for event {event_id}, "
+          f"{details['source']} -> {details['deliver_to']}: {details['operation']}")
 
-# Политика взаимодействий по диаграмме
-if src == 'Пассажир' and dst == 'Сканер биометрии' and operation == 'предоставить_биометрию':
-    authorized = True
-if src == 'Сканер биометрии' and dst == 'Локальный журнал' and operation == 'записать_лог':
-    authorized = True
-if src == 'Сканер биометрии' and dst == 'Центральная система цифрового управления' and operation == 'отправить_биометрию':
-    authorized = True
-if src == 'Центральная система цифрового управления' and dst == 'Локальный журнал' and operation == 'обновить_журнал':
-    authorized = True
-if src == 'Центральная система цифрового управления' and dst == 'Автономный модуль' and operation == 'управляющая_команда':
-    authorized = True
-if src == 'Центральная система цифрового управления' and dst == 'Управление' and operation == 'отправить_разрешение':
-    authorized = True
-if src == 'Политика безопасности' and dst == 'Модуль мониторинга' and operation == 'установить_правила':
-    authorized = True
-if src == 'Модуль мониторинга' and dst == 'Центральная система цифрового управления' and operation == 'мониторинг_состояния':
-    authorized = True
-if src == 'Локальный журнал' and dst == 'Центральная система цифрового управления' and operation == 'передать_логи':
-    authorized = True
-if src == 'Автономный модуль' and dst == 'Связь' and operation == 'передача_данных':
-    authorized = True
-if src == 'Связь' and dst == 'Банк' and operation == 'транзакция':
-    authorized = True
-if src == 'Банк' and dst == 'Связь' and operation == 'ответ_банка':
-    authorized = True
-if src == 'Связь' and dst == 'Автономный модуль' and operation == 'обратная_связь':
-    authorized = True
-if src == 'Управление' and dst == 'Двери' and operation == 'открыть_или_закрыть':
-    authorized = True
-if src == 'Двери' and dst == 'Пассажир' and operation == 'разрешить_доступ':
-    authorized = True
+    src = details['source']
+    dst = details['deliver_to']
+    operation = details['operation']
 
-return authorized
-details = { 'source': 'Пассажир', 'deliver_to': 'Сканер биометрии', 'operation': 'предоставить_биометрию' } print(check_operation("event-001", details)) "
+    # Политика взаимодействий по диаграмме
+    if src == 'Пассажир' and dst == 'Камера ' and operation == 'предоставить_биометрию':
+        authorized = True
+    if src == 'Камера ' and dst == 'Биометрия ' and operation == 'записать_биометрию':
+        authorized = True
+    if src == 'Биометрия ' and dst == 'Система контроля платформы ' and operation == 'отправить_биометрию':
+        authorized = True
+    if src == 'Система контроля платформы ' and dst == 'Система диагностики ' and operation == 'обновить_журнал':
+        authorized = True
+    if src == 'Система контроля платформы ' and dst == 'Сетевой модуль ' and operation == 'управляющая_команда':
+        authorized = True
+    if src == 'Система управления ' and dst == 'Система диагностики ' and operation == 'отправить_разрешение':
+        authorized = True
+    if src == 'Политика' and dst == 'Модуль мониторинга' and operation == 'установить_правила':
+        authorized = True
+    if src == 'Модуль мониторинга' and dst == 'Система управления ' and operation == 'мониторинг_состояния':
+        authorized = True
+    if src == 'Двери ' and dst == 'Система управления ' and operation == 'передать_логи':
+        authorized = True
+    if src == 'Система управления ' and dst == 'Связь' and operation == 'передача_данных':
+        authorized = True
+    if src == 'Связь' and dst == 'Банк ' and operation == 'транзакция':
+        authorized = True
+    if src == 'Банк ' and dst == 'Связь' and operation == 'ответ_банка':
+        authorized = True
+    if src == 'Связь' and dst == 'Система управления ' and operation == 'обратная_связь':
+        authorized = True
+    if src == 'Сетевой модуль ' and dst == 'Двери ' and operation == 'открыть_или_закрыть':
+        authorized = True
+    if src == 'Двери ' and dst == 'Пассажир' and operation == 'разрешить_доступ':
+        authorized = True
+
+    return authorized
+
+details = {'source': 'Пассажир', 'deliver_to': 'Камера ', 'operation': 'предоставить_биометрию'}
+print(check_operation("event-001", details))
 
